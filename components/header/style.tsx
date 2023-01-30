@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import logo from "@/public/assets/images/logo.png";
 
 const HeaderContainer = styled.div`
   width: 100%;

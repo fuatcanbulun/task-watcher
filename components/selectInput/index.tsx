@@ -27,11 +27,7 @@ const SelectInput = ({
         placeholderPosition={icon ? "30px" : "0px"}
         onChange={(e) => onChange(e.target.value)}
       >
-        {defaultOption && (
-          <option value="" selected>
-            {defaultOption}
-          </option>
-        )}
+        {defaultOption && <option value="">{defaultOption}</option>}
 
         <option value="urgent">Urgent</option>
         <option value="regular">Regular</option>
